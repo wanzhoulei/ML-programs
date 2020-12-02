@@ -122,6 +122,7 @@ def processDF(df, score0, score1, score2):
     df = df.drop(columns=['sum'])
 def main():
     # load the data
+    # this dataset is from the built in package dataset
     iris=datasets.load_iris()
     X=iris.data
     Y= iris.target
